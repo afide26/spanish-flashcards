@@ -1,0 +1,56 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a {
+  cursor: pointer;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+  height: 100vh;
+}
+
+body {
+  background-color: #5f9fff;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  flex: none;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.card-title,
+.card-answer {
+  font-weight: 700;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.card-button {
+  background-color: #fff;
+  border: 1px solid #0070bb;
+  color: #0070bb;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.card-answer {
+  display: none;
+}
